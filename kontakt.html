@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt Tierheim Stuttgart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gesamt">
+    <header>
+        <img src="Logo.jpg" width="100" height="100">
+        <h1>Tierheim Stuttgart</h1><h2>Ein Zuhause für Tiere</h2>
+    </header>
+    <div id="hauptbereich">
+    <nav>
+        <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="beschreibung.html">Über uns</a></li>
+            <li><a href="spenden.html">Tieren helfen</a></li>
+            <li><a href="adoption.html">Tier adoptieren</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2>Kontakt</h2>
+        <form action="kontakt.html" method="get" enctype="text/plain">
+            Ihr Vorname: <input type="text" name="vorname" size="10"><br><br>
+            Ihr Nachname: <input type="text" name="nachname" size="10"><br><br>
+            Ihre Telefonnummer: <input type="text" name="tel" size="10"><br><br>
+            Ihre E-Mail-Adresse: <input type="text" name="mail" size="20"><br><br><br>
+
+            Haben Sie selbst Tiere?<br><br>
+            <select name="tiere">
+                <option value="0">Nein</option>
+                <option value="1">Ja, eins</option>
+                <option value="2">Ja, zwei</option>
+                <option value="3+">Ja, drei oder mehr</option>
+            </select><br><br><br>
+
+            Ich wünsche Informationen über: <br><br>
+            <input type="checkbox" name="interessen" value="adoption">Ein Tier adoptieren <br>
+            <input type="checkbox" name="interessen" value="spenden">Das Tierheim finanziell unterstützen<br>
+            <input type="checkbox" name="interessen" value="mitarbeit">Ehrenamtliche Mitarbeit<br>
+            <input type="checkbox" name="interessen" value="veranstaltungen">Informationsveranstaltungen<br><br><br>
+
+            Unser Förderverein: <br><br>
+            <input type="radio" name="verein" value="mitglied">Ich bin bereits Mitglied<br>
+            <input type="radio" name="verein" value="mitgliedWerden">Ich will gerne Mitglied werden<br>
+            <input type="radio" name="verein" value="keinInteresse">Kein Interesse<br><br><br>
+
+            Platz für weitere Kommentare: <br><br>
+            <textarea name="kommentar" cols="60" rows="7" placeholder="Fügen Sie weitere Kommentare ein!"></textarea><br><br>
+
+            <input type="submit" value="Formular abschicken">
+            <input type="reset" value="Werte zurücksetzen">
+        </form>
+    </article>
+    <aside>
+        <h2>Wir freuen uns auf Ihre Kontaktaufnahme</h2>
+        <p>Wenn Sie Fragen zu unserer Tätigkeit haben, können Sie sich gerne an uns wenden. 
+            Auch, wenn Sie unsere Arbeit finanziell unterstützen möchten, können sie unser Kontaktformular
+            nutzen. In Kürze werden Sie dann von uns hören.
+        </p>
+    </aside>
+    </div>
+    <footer>
+        Unser Tierheim in Stuttgart: Hauptstraße 100, Tel: 123456789
+    </footer>
+    </div>
+</body>
+</html>
